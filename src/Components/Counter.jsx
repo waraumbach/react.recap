@@ -10,12 +10,16 @@ const Counter = () => {
           <a href="#">count:{count}</a>
         </button>
       </h4>
-      <button onClick={() => setCount(count + 1)}>decrement+ </button>
+      <button onClick={() => setCount(count + 1)}>decrement+1 </button>
       <br />
       <br />
-
-      <button onClick={() => setCount(count - 1)}>increment- </button>
+      <button onClick={() => setCount(count + 10)}>decrement+10 </button>
       <br />
+      <br />
+      <button onClick={() => setCount(count - 1)}>increment-1 </button>
+      <br />
+      <br />
+      <button onClick={() => setCount(count - 10)}>increment-10 </button>
     </>
   );
 };
