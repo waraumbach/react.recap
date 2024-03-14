@@ -1,5 +1,6 @@
 import "./App.css";
 import User from "./Components/User";
+import Counter from "./Components/Counter";
 
 function App() {
   let appName = "meme";
@@ -46,6 +47,7 @@ function App() {
       {myUsers.map((user) => {
         return <User name={user.name} age={user.age} />;
       })}
+      <Counter />
     </>
   );
 }
