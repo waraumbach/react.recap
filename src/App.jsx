@@ -9,16 +9,16 @@ function App() {
   const myUsers = [
     {
       name: "John",
-      age: 20,
+      age: "20 years",
     },
     {
       name: "Jame",
-      age: 25,
+      age: "25 years",
     },
 
     {
       name: "Jane",
-      age: 27,
+      age: "27 years",
     },
   ];
 

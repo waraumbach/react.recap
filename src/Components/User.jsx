@@ -4,7 +4,7 @@ const User = (props) => {
   return (
     <>
       <h3>
-        Hi my name is{props.name} age{props.age}
+        {props.name} {props.age}
       </h3>
     </>
   );
