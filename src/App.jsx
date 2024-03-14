@@ -33,7 +33,9 @@ function App() {
       />
       <br />
       <button>
-        <a href="#">Click me</a>
+        <a href="#" target="_blank">
+          Click me
+        </a>
       </button>
       <User />
 
