@@ -2,9 +2,8 @@ import "./App.css";
 import User from "./Components/User";
 
 function App() {
-  let appName = "Wara";
-  let myGreeting = "Sawasdee ka";
-  let home = "thailand";
+  let appName = "meme";
+  let myGreeting = "discover your world";
 
   const myUsers = [
     {
@@ -24,9 +23,14 @@ function App() {
 
   return (
     <>
-      <h1> I am {appName}</h1>
-      <h2>{myGreeting}</h2>
-      <p> i am from {home}</p>
+      <h1>
+        <a href="#">
+          <br />
+          {appName}
+        </a>
+      </h1>
+      <h3>{myGreeting}</h3>
+
       <img
         src="https://cdn.pixabay.com/photo/2022/06/18/16/55/cute-7270285_1280.png"
         alt="cat"
