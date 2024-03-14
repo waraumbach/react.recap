@@ -5,6 +5,23 @@ function App() {
   let appName = "Wara";
   let myGreeting = "Sawasdee ka";
   let home = "thailand";
+
+  const myUsers = [
+    {
+      name: "John",
+      age: 20,
+    },
+    {
+      name: "Jame",
+      age: 25,
+    },
+
+    {
+      name: "Jane",
+      age: 27,
+    },
+  ];
+
   return (
     <>
       <h1> I am {appName}</h1>
@@ -18,10 +35,11 @@ function App() {
       <button>
         <a href="#">Click me</a>
       </button>
+      <User />
 
-      <User name="John" age="20" />
-      <User name="Jame" age="25" />
-      <User name="Jane" age="27" />
+      {myUsers.map((user) => {
+        return <User name={user.name} age={user.age} />;
+      })}
     </>
   );
 }
