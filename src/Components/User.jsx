@@ -18,7 +18,9 @@ const User = (props) => {
 
   return (
     <>
-      <h3>Hi my name is{props.name}</h3>
+      <h3>
+        Hi my name is{props.name} age{props.age}
+      </h3>
       {myUsers.map((user) => {
         return <user name={user.name} age={user.age} />;
       })}
