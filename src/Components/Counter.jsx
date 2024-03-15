@@ -8,7 +8,7 @@ const Counter = () => {
   return (
     <>
       <div style={{ backgroundColor: cssMode ? "pink" : "white" }}>
-        <h2>welcome {name}</h2>
+        <h1>hello {name}</h1>
         <form
           onSubmit={(e) => {
             e.preventDefault();
