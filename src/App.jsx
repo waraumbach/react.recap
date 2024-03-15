@@ -1,6 +1,7 @@
 import "./App.css";
 import User from "./Components/User";
 import Counter from "./Components/Counter";
+import { useState, useEffect } from "react";
 
 function App() {
   let appName = "meme";

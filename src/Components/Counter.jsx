@@ -33,6 +33,8 @@ const Counter = () => {
       <button>
         <a href="#">count:{count}</a>
       </button>
+      <br />
+      <br />
 
       <button onClick={() => setCount(count + 1)}>decrement+1 </button>
       <br />
