@@ -13,7 +13,7 @@ const Counter = () => {
           onSubmit={(e) => {
             e.preventDefault();
             console.log(e);
-            setName("jane");
+            setName("jame");
           }}
         >
           <input
@@ -26,15 +26,13 @@ const Counter = () => {
       <br />
       <br />
 
-      <h4>
-        <button>
-          <a href="#">count:{count}</a>
-        </button>
-      </h4>
       <button onClick={() => setCssMode(!cssMode)}>Change the css state</button>
       <div>
         <h3>hello state,my css state is {cssMode ? "true" : "false"}</h3>
       </div>
+      <button>
+        <a href="#">count:{count}</a>
+      </button>
 
       <button onClick={() => setCount(count + 1)}>decrement+1 </button>
       <br />
